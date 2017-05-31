@@ -71,6 +71,9 @@ export LANG=en_US.UTF-8
    export EDITOR='mvim'
  fi
 
+# Syntax highlighting if so desired
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
