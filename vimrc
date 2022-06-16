@@ -5,6 +5,7 @@
 " Leader
 let mapleader = " "
 
+set noswapfile    " disable swapfile 
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup
@@ -13,6 +14,7 @@ set history=50
 set ruler         " show the cursor position all the time
 set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
+set hlsearch      " highlight all search results
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 
@@ -111,7 +113,7 @@ inoremap <S-Tab> <c-n>
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
-" Get off my lawn
+" Don't use arrow keys like a caveman!
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
