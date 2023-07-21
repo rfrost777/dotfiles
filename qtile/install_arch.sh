@@ -2,7 +2,7 @@
 # Automate my installation of tools on top of qtile.
 # Version: 07-19-2023
 #
-# I use for most of my arch installs an EndevourOS (https://endeavouros.com/latest-release/) XFCE4 base system,
+# I use for most of my arch installs an EndeavourOS (https://endeavouros.com/latest-release/) XFCE4 base system,
 # just in case QTile decides to quit on me because of some silly Python changes upstream...
 #
 # Change this to whatever tools you need:
