@@ -35,7 +35,7 @@ set $menu exec wofi --show drun
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg ~/Pictures/Backgrounds/bg-06.jpg stretch
+output * bg $HOME/.config/wallpaper/bg-06.jpg stretch
 #
 # Example configuration:
 #
@@ -76,7 +76,7 @@ input * {
 # Read `man 5 sway-input` for more information about this section.
 
 # Visuals: import catppuccin color theme and setup windows
-include ./colors/catppuccin-mocha
+include $HOME/.config/colors/catppuccin-mocha
 
 gaps inner 2
 gaps outer 2
